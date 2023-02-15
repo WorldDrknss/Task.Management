@@ -1,9 +1,9 @@
 <div class="container">
   <div class="content-wrapper">
       <button (click)="openNewBoardDialog()" class="new-button" mat-button>New Board</button>
-      <div class="board-card">
+      <div [routerLink]="'/view-board/' + i" class="board-card" *ngFor="let board of boardService.boards; let i = index">
           <div class="title">
-              Title
+              {{board.title}}
           </div>
           <div class="actions">
               <button mat-icon-button><mat-icon>delete</mat-icon></button>
