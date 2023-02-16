@@ -14,6 +14,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ViewBoardsComponent } from './pages/view-boards/view-boards.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import { NewCardComponent } from './components/new-card/new-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TopbarComponent,
     BoardsComponent,
     NewBoardComponent,
-    ViewBoardsComponent
+    ViewBoardsComponent,
+    NewCardComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

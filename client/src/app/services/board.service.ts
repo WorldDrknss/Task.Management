@@ -18,6 +18,10 @@ export class BoardService {
     localStorage.setItem('boards', JSON.stringify(this.boards));
   }
 
+  public updateDataToLocalStorage(){
+    localStorage.setItem('boards', JSON.stringify(this.boards));
+  }
+
 }
 
 let board = {
