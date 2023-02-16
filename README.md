@@ -49,4 +49,4 @@ Instagram - [@skynetinc.tech](https://twitter.com/skynetinc.tech)
 
 Facebook - [@skynetinctech](https://facebook.com/skynetinctech)
 
-Project Link: [https://lab.skynetinc.tech/WorldDrknss/Guide-to-AlmaLinux/](https://lab.skynetinc.tech/WorldDrknss/Guide-to-AlmaLinux/)
+Project Link: [https://lab.skynetinc.tech/WorldDrknss/Task.Management](https://lab.skynetinc.tech/WorldDrknss/Task.Management)
